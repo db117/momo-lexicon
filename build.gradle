@@ -28,7 +28,7 @@ test {
 
 task processLexicon(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'org.db117.lexicon.Task'
+    mainClass = 'org.db117.lexicon.ProcessLexiconTask'
     // main参数
     args 'appArg1'
 }
