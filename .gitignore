@@ -34,3 +34,5 @@ gen
 gradle/
 .gradle/
 
+input/
+!input/test.txt
