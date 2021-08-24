@@ -19,6 +19,10 @@ public class Trie {
 
     private final static Trie root = new Trie('0');
 
+    public Trie() {
+        this('0');
+    }
+
     public Trie(char c) {
         this.cur = c;
         child = new Trie[26];
